@@ -57,7 +57,7 @@ object MondayCodeAlong extends App {
   class Dog(val name:String, val age:Int, val likesBanans:Boolean) {
     def speak:String ="woof"
   }
-
+ println("hello world again!")
 }
 
 
