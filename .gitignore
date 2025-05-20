@@ -1,5 +1,19 @@
-*
+### Scala template
+*.class
+*.log
 
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+  .bsp/
+        .idea/libraries/
+        .idea/modules.xml
+        .idea/modules/
+        .idea/vcs.xml
+        project/target/
+
+        target/
+.*
 !.gitignore
 !.scalafmt.conf
 bin
@@ -37,3 +51,4 @@ target
 test-result
 tmp
 .vscode/
+

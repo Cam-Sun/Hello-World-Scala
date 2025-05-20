@@ -1,0 +1,5 @@
+[debug] Created transactional ClassFileManager with tempDir = /Users/camille.sun/Library/CloudStorage/OneDrive-MercatorITSolutionsLtd/QA 3/QA Academy Lessons/project/target/scala-2.12/sbt-1.0/classes.bak
+[debug] About to delete class files:
+[debug] We backup class files:
+[debug] Created transactional ClassFileManager with tempDir = /Users/camille.sun/Library/CloudStorage/OneDrive-MercatorITSolutionsLtd/QA 3/QA Academy Lessons/project/target/scala-2.12/sbt-1.0/classes.bak
+[debug] Removing the temporary directory used for backing up class files: /Users/camille.sun/Library/CloudStorage/OneDrive-MercatorITSolutionsLtd/QA 3/QA Academy Lessons/project/target/scala-2.12/sbt-1.0/classes.bak
