@@ -32,7 +32,7 @@ object MondayTask extends App {
 `Boolean` return type.*/
 
   def checkOddNumbers(num:Int):Boolean={
-    val isOddNumber: Boolean = num % 2 == 0
+    val isOddNumber: Boolean = num % 2 != 0
     isOddNumber
   }
 
@@ -64,14 +64,15 @@ object MondayTask extends App {
 
   //Extention 3
   println("Extention3: ")
-  println( "string" == "STRING")
+  val isEqual = "string" == "STRING"
+  println( isEqual)
 
-  //Extention 4
+  //Extention 6
   println("Extention4: ")
   val stringOne = "1"
   println(stringOne.toInt)
 
-  //Extention 5
+  //Extention 6
   def convertIntToString(num:Int):String = {
     val numToString : String = num.toString
     println(s"The data type of $num is ${numToString.getClass.toString}")
