@@ -10,6 +10,7 @@ object MondayTask extends App {
 
     println (evaluation1)
     println (evaluation2)
+
     println (evaluation3)
     println (evaluation4)
     println(evaluation5)
