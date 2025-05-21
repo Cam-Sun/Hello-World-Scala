@@ -38,19 +38,59 @@ val weather:String = "sunny"
   }
 
   // INT - slightly more careful
-  val age:Int = 6
-  if(age <= 0) println("Invalid input")
-  if(age >= 18) println(s"You are an adult because you are $age")
-  else println(s"You are a child because you are $age")
+ val age:Int = 6
+//  if(age <= 0) println("Invalid input")
+//  if(age >= 18) println(s"You are an adult because you are $age")
+//  else println(s"You are a child because you are $age")
+
+//  age match{
+//    case age if age <= 0 => println("Invalid input")
+//    case age if age >=18 => println(s"You are an adult because you are $age")
+//    case _ => println(s"You are a child because you are $age")
+//  }
+
+  // how to write in percentage and how to compare percentage number
+ val grade :Double = 0.8
+  var response: String = ""
+
+  if(grade >= 0.9) response = "A"
+  else if (grade >= 0.8 & grade <0.9) response = "B"
+  else if (grade >=0.7 & grade <0.8) response = "C"
+  else if(grade >=0.6 & grade < 0.7) response = "D"
+  else if(grade >=0.5 & grade < 0.6) response = "E"
+  else response = "F"
+  println(response)
 
   age match{
-    case age if age <= 0 => println("Invalid input")
-    case age if age >=18 => println(s"You are an adult because you are $age")
-    case _ => println(s"You are a child because you are $age")
+    case age if age >= 4 => println("You can watch U rating film")
   }
 
 
+  // OPTIONS (getOrElse)
 
+  val name : Option[String] = Some("April")
+  val emptyName: Option[String] = None
+
+ println("name:" + name)
+  println("emptyName:" + emptyName)
+
+    def getName(name:Option[String]):String = name.getOrElse("This user has left the field empty")
+  println("get name: " + getName(name))
+  println("get empty name:" + getName(emptyName))
+
+
+  // Try ~Catch block
+
+  //diving by zero, vonverting strings to numbers, accesssing files, dealing with bad input from a suer or system
+
+  try{
+    //Code that might fail
+    //All Logic - If/else, patter match, def, val
+    val number = "123".toInt
+    println(s"the number is $number")
+  } catch{
+    case error: NumberFormatException => println(s"$error was not a valid input") // often see error as e
+  }
 
 
 
