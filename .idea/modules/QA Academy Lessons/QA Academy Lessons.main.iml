@@ -15,5 +15,7 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="sbt: scala-sdk-2.13.16" level="project" />
     <orderEntry type="library" name="sbt: org.scala-lang:scala-library:2.13.16:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scala-lang:scala-reflect:2.13.16:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scalactic:scalactic_2.13:3.2.19:jar" level="project" />
   </component>
 </module>
