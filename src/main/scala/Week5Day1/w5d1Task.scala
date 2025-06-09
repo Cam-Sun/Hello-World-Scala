@@ -60,8 +60,8 @@ o A link on the page
  evilTesterLink.click()
  println("3.3 Evil Tester clicked")
 
-// val compendiumDevelopments:WebElement = driver.findElement(By.partialLinkText("Compendium Developments"))
-// compendiumDevelopments.click()
-// println("Compendium development")
+ val compendiumDevelopments:WebElement = driver.findElement(By.partialLinkText("Compendium Developments"))
+ compendiumDevelopments.click()
+ println("Compendium development clicked")
  driver.quit()
 }
