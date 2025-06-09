@@ -56,12 +56,12 @@ o A link on the page
  submitBtn.click()
  println("3.2 submit button is clicked")
 
-// val evilTesterLink :WebElement = driver.findElement(By.partialLinkText("EvilTester.com"))
-// evilTesterLink.click()
-// println("3.3 Evil tester link is clicked")
-//
-//val compendiumDevelopments:WebElement = driver.findElement(By.linkText("Compendium Developments"))
-//compendiumDevelopments.click()
+ val evilTesterLink :WebElement = driver.findElement(By.linkText("EvilTester.com"))
+ evilTesterLink.click()
+ println("3.3 Evil Tester clicked")
 
+// val compendiumDevelopments:WebElement = driver.findElement(By.partialLinkText("Compendium Developments"))
+// compendiumDevelopments.click()
+// println("Compendium development")
  driver.quit()
 }
