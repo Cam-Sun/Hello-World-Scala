@@ -12,7 +12,8 @@ object Excercise extends App {
   println("name input found: " + "passed")
 
   val password:WebElement = driver.findElement(By.name("my-password"))
-  password.sendKeys(("Password123"))
+  password.sendKeys(("Password1" +
+    "23"))
   println("password found: " + "passed")
 
   val textarea :WebElement = driver.findElement(By.xpath("//form/div/div/label/textarea"))
