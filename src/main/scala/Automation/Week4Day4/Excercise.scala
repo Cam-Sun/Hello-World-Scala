@@ -3,7 +3,7 @@ package Automation.Week4Day4
 import org.openqa.selenium.{By, WebDriver, WebElement}
 import org.openqa.selenium.chrome.ChromeDriver
 
-object PMTask extends App {
+object Excercise extends App {
   val driver:WebDriver = new ChromeDriver()
   val url = "https://www.selenium.dev/selenium/web/web-form.html"
   driver.get(url)
