@@ -6,7 +6,7 @@ import org.openqa.selenium.{By, WebDriver, WebElement}
 
 import java.time.Duration
 
-object w5d2Task3WebDriverWait extends App {
+object Task3WebDriverWait extends App {
   //Task 3:
   val url:String = "https://demoqa.com/automation-practice-form"
   //  1. Launch the browser using WebDriver.

@@ -3,7 +3,7 @@ package Automation.Week4Day4
 import org.openqa.selenium.{By, WebDriver, WebElement}
 import org.openqa.selenium.chrome.ChromeDriver
 
-object TaskPM extends App {
+object Task extends App {
 val url = "https://www.w3schools.com/html/html_examples.asp"
 
   val driver:WebDriver = new ChromeDriver()

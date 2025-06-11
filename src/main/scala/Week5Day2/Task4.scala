@@ -1,6 +1,6 @@
 package Week5Day2
 
-object w5d2Task4 {
+object Task4 {
  /*
  1. What is the difference between .close() and .quit() in different scenarios?
 o Try closing one tab vs closing the entire session.
