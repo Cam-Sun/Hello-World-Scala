@@ -4,7 +4,7 @@ package Week5Day1
 import org.openqa.selenium.chrome.ChromeDriver
 import org.openqa.selenium.{By, WebDriver, WebElement}
 
-object w5d1Task extends App {
+object Task extends App {
  val driver:WebDriver = new ChromeDriver()
  val url:String = "https://testpages.herokuapp.com/styled/basic-html-form-test.html"
  // 1. Navigates to the above Test web URL.

@@ -3,7 +3,7 @@ package Week5Day2
 import org.openqa.selenium.WebDriver
 import org.openqa.selenium.chrome.ChromeDriver
 
-object w5d2Task1 extends App {
+object Task1 extends App {
   //Task1
   val url:String = "https://demoqa.com/browser-windows"
   //1. Launch the browser using WebDriver.
