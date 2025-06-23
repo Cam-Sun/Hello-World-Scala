@@ -1,4 +1,4 @@
-import WedHandlingMultipleOptions.age
+package BeforeAutomation
 
 object WedHandlingMultipleOptions extends App{
 val weather:String = "sunny"

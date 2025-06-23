@@ -1,3 +1,5 @@
+package BeforeAutomation
+
 object MondayTask extends App {
 
   val taskOne= () => {

@@ -1,3 +1,5 @@
+package BeforeAutomation
+
 object TuesdayTask extends App {
 
   /*

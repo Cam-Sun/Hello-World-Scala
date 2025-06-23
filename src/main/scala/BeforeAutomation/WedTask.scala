@@ -1,4 +1,4 @@
-import java.lang
+package BeforeAutomation
 
 object WedTask extends App {
 /*

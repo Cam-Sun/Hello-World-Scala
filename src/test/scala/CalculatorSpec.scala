@@ -1,3 +1,4 @@
+import BeforeAutomation.Calculator
 import org.scalatest.flatspec.AnyFlatSpec
 
 class CalculatorSpec extends AnyFlatSpec {

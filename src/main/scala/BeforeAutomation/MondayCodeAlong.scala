@@ -1,3 +1,5 @@
+package BeforeAutomation
+
 object MondayCodeAlong extends App {
     val melons = 5 * 50
     val apples = 2 * 10

@@ -1,3 +1,5 @@
+package BeforeAutomation
+
 object TueCollectionCodeAlong extends App {
 
   val firstSet :Set[Int] = Set(1,2,3,4,5, 6)
