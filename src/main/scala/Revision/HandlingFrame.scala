@@ -1,7 +1,7 @@
-package Week5Day3
+package Revision
 
-import org.openqa.selenium.{By, JavascriptExecutor, WebDriver}
 import org.openqa.selenium.chrome.ChromeDriver
+import org.openqa.selenium.{By, JavascriptExecutor, WebDriver}
 
 object HandlingFrame extends App {
 
